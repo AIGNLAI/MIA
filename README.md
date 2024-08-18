@@ -33,3 +33,4 @@ python main.py -target_model cnn -d CIFAR10 -s 2024
 
 #### 如果你想添加新的模型，需要在`model.py`中进行相应的添加
 
+#### 如果在联邦学习场景下，把`train_target_model`函数修改为联邦学习训练即可
